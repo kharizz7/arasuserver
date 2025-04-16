@@ -1,5 +1,14 @@
 {
   "name": "server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "commonjs",
+  "engines": {
+    "node": "14"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "axios": "^0.24.0",
     "compression": "^1.7.4",
@@ -11,11 +20,5 @@
     "googleapis": "^148.0.0",
     "helmet": "^4.6.0",
     "winston": "^3.3.3"
-  },
-  "engines": {
-    "node": "14"
-  },
-  "scripts": {
-    "start": "node server.js"
   }
 }
