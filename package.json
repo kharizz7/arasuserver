@@ -14,5 +14,8 @@
   },
   "engines": {
     "node": "14"
+  },
+  "scripts": {
+    "start": "node server.js"
   }
 }
