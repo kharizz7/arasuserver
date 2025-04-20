@@ -6,7 +6,7 @@ require("dotenv").config(); // Load environment variables
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use(cors({ origin: "http://localhost:3001" })); // Allow frontend origin
+app.use(cors({ origin: "*" })); // Allow frontend origin
 
 // ✅ Proxy Google Drive audio files
 app.get("/proxy/audio", async (req, res) => {
